@@ -1,0 +1,56 @@
+<html>
+<head>
+ <title>Create Account</title>
+</head>
+<body style="font-size:20;color:white;background-color:grey;margin-left:30%;">
+
+<h1>NEW ACCOUNT</h1>
+<form>
+  <label for='username'>Username:</label>
+  <input type='text' size='40' id='username'><br><br>
+  
+  <label for='password'>Password:</label>&nbsp;
+  <input type='text' size='40' id='password'><br><br>
+  
+  <label for='name'>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <input type='text' size='40' id='name'><br><br>
+  
+  <label for='address'>Address:&nbsp;&nbsp;&nbsp;</label>
+  <textarea id='address' rows='4' cols='40'></textarea>
+  <br><br>
+  
+  <label for='phno'>Ph no:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <label for="countrycode"></label>
+  <select id="countrycode" size="1">
+    <option value="india">+91</option>
+    <option value="america">+1</option>
+    <option value="italy">+39</option>
+  </select>
+  <input type='text' size='33' id='phno'><br><br>
+  
+  <label for="country">Choose your country:</label>
+  <select id="country" size="1">
+    <option value="india">India</option>
+    <option value="america">America</option>
+    <option value="italy">Italy</option>
+    <option value="other">Other</option>
+  </select>
+  <br><br>
+  
+  Gender:
+  <input type='radio' id='male' name='gender'>
+  <label for='male'>Male</label>
+  <input type='radio' id='female' name='gender'>
+  <label for='female'>Female</label>
+  <br><br>
+  
+  <input type="checkbox" id="terms" name="terms" required>
+  <label for="terms">I agree to the terms and conditions</label>
+  <br><br>
+  
+  <input type='button' onclick="alert('Account created')" value='CREATE' style="background-color: green; color: white;">
+
+</form>
+
+</body>
+</html>
